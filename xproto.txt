@@ -1,0 +1,33 @@
+Using built-in specs.
+COLLECT_GCC=g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i486-linux-gnu/4.7/lto-wrapper
+Target: i486-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu
+Thread model: posix
+gcc version 4.7.2 (Debian 4.7.2-5)
+
+Compiled module: ./Release/xproto_i386.so
+
+File list
+
+313809    4 drwxr-xr-x   6 root     root         4096 Oct 22  2014 .
+313811   28 -rw-r--r--   1 root     root        28518 Oct 28  2013 ./xproto.cpp
+320588    4 drwxr-xr-x   2 root     root         4096 Sep  8  2013 ./Debug
+313814    4 -rw-r--r--   1 root     root         1495 Aug 20  2013 ./sdk_util.cpp
+312946    4 -rw-r--r--   1 root     root         1900 Sep  8  2013 ./Makefile
+313810    4 -rw-r--r--   1 root     root         3913 Aug 20  2013 ./dllapi.cpp
+313816    8 -rw-r--r--   1 root     root         7959 Aug 20  2013 ./engine_api.cpp
+313815    4 -rw-r--r--   1 root     root         1229 Aug 20  2013 ./h_export.cpp
+313812    8 -rw-r--r--   1 root     root         4664 Aug 20  2013 ./meta_api.cpp
+330193    4 drwxr-xr-x   3 root     root         4096 Feb  5  2015 ./includes
+330195   20 -rw-r--r--   1 root     root        17792 Aug 20  2013 ./includes/chooker.h
+330196    4 -rw-r--r--   1 root     root         2461 Aug 20  2013 ./includes/osconfig.h
+330194    8 -rw-r--r--   1 root     root         7519 Oct 28  2013 ./includes/xproto.h
+320587    4 drwxr-xr-x   2 root     root         4096 Oct 28  2013 ./Release
+320594    4 -rw-r--r--   1 root     root         1480 Oct 28  2013 ./Release/sdk_util.o
+320589    4 -rw-r--r--   1 root     root         2172 Oct 28  2013 ./Release/dllapi.o
+320590    4 -rw-r--r--   1 root     root         1804 Oct 28  2013 ./Release/engine_api.o
+320593   56 -rw-r--r--   1 root     root        49176 Oct 28  2013 ./Release/xproto.o
+320595   40 -rwxr-xr-x   1 root     root        39608 Oct 28  2013 ./Release/xproto_i386.so
+320592    4 -rw-r--r--   1 root     root         2636 Oct 28  2013 ./Release/meta_api.o
+320591    4 -rw-r--r--   1 root     root         1412 Oct 28  2013 ./Release/h_export.o
